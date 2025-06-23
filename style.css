@@ -53,3 +53,19 @@ button {
 button:hover {
     background: #e38aad;
 }
+
+@media (max-width: 600px) {
+    .top-wrapper h1 {
+        font-size: 1.8rem;
+    }
+
+    .result {
+        font-size: 1.5rem;
+        padding: 1rem 2rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 0.8rem 1.5rem;
+    }
+}
